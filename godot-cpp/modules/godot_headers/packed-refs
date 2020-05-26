@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled sorted 
+53c1f1c645161b60a4f33bc52686cc872fbf5770 refs/remotes/origin/3.0
+98ee82599dfe07e17983ad831f5e9ac41068667f refs/remotes/origin/3.1
+ddf67cc7b8274c5fb77a71c828bab2991f1ee12a refs/remotes/origin/3.2
+d93984d8201ae6952f200ca55d91f1b6f58daeec refs/remotes/origin/master
+489db2761c8aa0f49efbbc729dfa728f850f9756 refs/tags/godot-3.1-stable
+98ee82599dfe07e17983ad831f5e9ac41068667f refs/tags/godot-3.1.1-stable
+d0e85ee003d120cb8725477fd9c1e243954b3a13 refs/tags/v1.0.0-alpha1
