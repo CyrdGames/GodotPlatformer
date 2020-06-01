@@ -2,6 +2,7 @@
 
 pre_commit_stash_name="pre_commit_stash"
 git_root_directory=$(git rev-parse --show-toplevel)
+c_and_cpp_file_extensions=(c h cc hh cpp hpp)
 
 ####################
 # Helper functions #
@@ -51,11 +52,9 @@ if [ $are_staged_changes_present -eq 0 ]; then
   # Split the `git diff` output into an array with newline as delimiter
   IFS=' ' read -r -a git_diff_filenames <<< "$git_diff_output"
 
-  c_and_cpp_file_extensions=(c h cc hh cpp hpp)
-
   declare -a files_to_format
 
-  # Get changed files with that have a C/C++ file extension
+  # Get changed files that have a C/C++ file extension
   for git_diff_filename in "${git_diff_filenames[@]}"; do
     git_diff_file_extension=$(echo $git_diff_filename | sed -e 's/.*\.//g')
     # If git_diff_filename has a C/C++ file extension
