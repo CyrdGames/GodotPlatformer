@@ -9,18 +9,18 @@ To start with an issue in the "To Do" column, create a new issue in the GodotPla
 ### Creating an issue
 Issues can be created through one of two ways:
 1. Through Projects:
-  * Go to the Projects tab on GitHub.
-  * Access the "GodotPlatformer" project.
-  * Add a note in the "To Do" column with the issue title.
-  * Press the ellipsis at the top-right of the new note and click "Convert to issue".
-  * Add a description to the newly created issue.
-  * Assign someone relevant to work on it.
+   * Go to the Projects tab on GitHub.
+   * Access the "GodotPlatformer" project.
+   * Add a note in the "To Do" column with the issue title.
+   * Press the ellipsis at the top-right of the new note and click "Convert to issue".
+   * Add a description to the newly created issue.
+   * Assign someone relevant to work on it.
 2. Through Issues:
-  * Go to the Issues tab on GitHub.
-  * Create a "New Issue".
-  * **link the Project to GodotPlatformer**.
-  * Add a description to the newly created issue.
-  * Assign someone relevant to work on it.
+   * Go to the Issues tab on GitHub.
+   * Create a "New Issue".
+   * **link the Project to GodotPlatformer**.
+   * Add a description to the newly created issue.
+   * Assign someone relevant to work on it.
 
 ## In Progress
 When you decide to pick up an issue to actively work on, **move the issue card from the "To Do" column to the "In Progress" column** within the GodotPlatformer project board. This indicates to the team that the issue is being actively worked on.
